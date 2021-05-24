@@ -1,0 +1,53 @@
+.container {
+  padding: 15px 0;
+}
+.container .content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+}
+.container .content .user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.container .content .user .avatar {
+  border-radius: 50%;
+  height: 96px;
+  width: 96px;
+  overflow: hidden;
+  margin-right: 24px;
+  background-color: #ececec;
+}
+.container .content .user .avatar .image {
+  fill: #2F3040;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.container .content .user .info {
+  display: flex;
+  flex-direction: column;
+}
+.container .content .user .info .name {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+.container .content .user .info .email {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.container .content .user .info .reg_date {
+  font-size: 14px;
+}
+.container .content .activities {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+}
+/*# sourceMappingURL=ProfilePage.module.css.map */
